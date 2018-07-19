@@ -1,0 +1,52 @@
+#header {
+    text-align: center;
+    font-size: 28px;
+    font-family: 'Montserrat', sans-serif;
+    text-shadow: 2px 2px 5px teal;
+}
+
+#header img {
+    width: 300px;
+    border: 3px dotted teal;
+    border-radius: 50%;
+}
+
+#info {
+    font-size: 21px;
+    font-family: 'Merriweather', serif;
+    letter-spacing: 2px;
+    padding-bottom: 20px;
+    
+}
+
+#aboutMe {
+    font-family: 'Poppins', sans-serif;
+}
+
+h2 {
+    text-decoration: underline double teal;
+    letter-spacing: 2px;
+    padding: 15px 35px 15px 15px;
+    font-family: 'Merriweather', serif;
+  }
+
+app-skills, app-contacts {
+    font-family: 'Poppins', sans-serif;
+  }
+
+  #wrapper {
+    display: flex;
+    flex-direction: row;
+    font-family: 'Poppins', sans-serif;
+    justify-content: space-around;
+  }
+
+
+
+
+
+
+
+
+    
+

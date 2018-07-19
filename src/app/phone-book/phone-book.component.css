@@ -1,0 +1,26 @@
+form input {
+    outline-width: 0;
+    border-style: none;
+  }
+
+  input.ng-invalid.ng-touched,
+  textarea.ng-invalid.ng-touched {
+    border-top-style: none;
+    border-left-style: none;
+    border-right-style: none;
+    background-color: red;
+  }
+  
+  input.ng-valid.ng-touched,
+  textarea.ng-valid.ng-touched {
+    border-bottom: 2px solid green;
+    background-color: white;
+  }
+
+#phoneBook h3 {
+    flex: 2;
+    text-decoration: underline double teal;
+    letter-spacing: 2px;
+    font-family: 'Merriweather', serif;
+    font-size: 21px;
+  }

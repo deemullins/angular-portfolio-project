@@ -1,0 +1,18 @@
+<form id = "phoneBook" (ngSubmit)="onSubmit()">
+    <h3>Phone Book:</h3>
+      <div>
+        <label for="name">Name: </label>
+        <input type="text" placeholder=" name" name="name" required [(ngModel)]="model.name">
+      </div>
+      <div>
+        <label for="email">Email: </label>
+        <input type="email" placeholder=" email" name="email" email required [(ngModel)]="model.email">
+      </div>
+      <div>
+        <label for="phoneNumber">Phone Number: </label>
+        <input type="tel" placeholder=" phone number" name="phoneNumber" required [(ngModel)]="model.phoneNumber">
+      </div>
+      <div>
+        <button type="submit">Submit</button>
+      </div>
+    </form>
